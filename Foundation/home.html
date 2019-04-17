@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Blog de Gastronomía</title>
+    <link rel="stylesheet" href="css/foundation.min.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="foundation-icons/foundation-icons.css" media="screen" charset="utf-8">
+    <link rel="stylesheet" href="css/home.css" media="screen" charset="utf-8">
+  </head>
+  <body data-whatinput="touch" class="cocina-body">
+    <!--Encabezado de la página-->
+    <div class="row small-stack medium-unstack encabezado">
+      <div class="columns medium-12 ">
+        <div class="callout primary">
+          <div class="medium-4 columns text-center">
+            <div class="titulo text-left">
+              <h1>Delicias</h1>
+            </div>
+            <div class="slogan text-right">
+              <h6>No somos lo que comemos, <br/> Somos lo que queremos.</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row small-stack medium-unstack">
+      <!--Columna Izquierda de la página-->
+      <div class="columns medium-4 col-izquierda show-for-medium ">
+        <div class="callout primary">
+          <!--Buscador y botones de navegacion-->
+          <div class="buscador">
+            <form>
+              <div class="columns form-icons">
+                <div class="input-group">
+                  <span class="input-group-label">
+                    <i class="fi-magnifying-glass"></i>
+                  </span>
+                  <input class="input-group-field large expanded" type="text" placeholder="Buscar">
+                </div>
+                <div class="input-group">
+                  <div class="column"><a href="#" class="hollow large expanded button">Inicio</a></div>
+                </div>
+                <div class="input-group">
+                  <div class="column"><a href="#" class="hollow large expanded button">Mi Plato Perfecto</a></div>
+                </div>
+                <div class="input-group">
+                  <div class="column"><a href="#" class="hollow large expanded button">Mis Recetas</a></div>
+                </div>
+              </div>
+            </form>
+          </div> <!--FIN Buscador y botones de navegacion-->
+          <!--Favoritos-->
+          <div class="row small-stack medium-unstack favoritos">
+            <div class="callout-primary">
+              <h4>Favoritos:</h4>
+            </div>
+            <div class="row small-stack medium-unstack">
+              <div class="columns col-favoritos">
+                <div class="callout-primary">
+                  <img src="img/milanesas-con-papas.jpg" alt="Milanesas con Papas Fritas" class="thumbnail">
+                </div>
+              </div>
+              <div class="columns col-favoritos">
+                <div class="callout-primary">
+                  <img src="img/asado.jpg" alt="Asado argentino" class="thumbnail">
+                </div>
+              </div>
+              <div class="columns col-favoritos">
+                <div class="callout-primary">
+                  <img src="img/pizza.jpeg" alt="Pizza" class="thumbnail">
+                </div>
+              </div>
+            </div>
+            <div class="row small-stack medium-unstack">
+              <div class="columns col-favoritos">
+                <div class="callout-primary">
+                  <img src="img/pasta.jpg" alt="Pasta" class="thumbnail">
+                </div>
+              </div>
+              <div class="columns col-favoritos">
+                <div class="callout-primary">
+                  <img src="img/polenta.jpg" alt="Polenta con parmesano" class="thumbnail">
+                </div>
+              </div>
+              <div class="columns col-favoritos">
+                <div class="callout-primary">
+                  <img src="img/cazuelas.jpg" alt="Cazuelas" class="thumbnail">
+                </div>
+              </div>
+            </div>
+          </div> <!--FIN Favoritos-->
+          <!--Historial-->
+          <div class="row small-stack medium-unstack historial text-left">
+            <div class="callout-primary">
+              <h4>Historial reciente:</h4>
+            </div>
+            <div class="callout-primary col-historial">
+              <div class="row column small-stack medium-unstack">
+                <div class="opc"><span><a href="#">Empanadas caseras</a></span></div>
+              </div>
+              <div class="row column small-stack medium-unstack">
+                <div class="opc"><span><a href="#">Pasteles de cumpleaños</a></span></div>
+              </div>
+              <div class="row column small-stack medium-unstack">
+                <div class="opc"><span><a href="#">Postres rápidos</a></span></div>
+              </div>
+              <div class="row column small-stack medium-unstack">
+                <div class="opc"><span><a href="#">Viandas saludables</a></span></div>
+              </div>
+              <div class="row column small-stack medium-unstack">
+                <div class="opc"><span><a href="#">Recetas cortas</a></span></div>
+              </div>
+            </div>
+          </div> <!--FIN Historial-->
+        </div>
+      </div> <!--FIN Columna Izquierda de la página-->
+
+      <!--Columna Derecha de la página-->
+      <div class="columns medium-8">
+        <div class="callout primary">
+          <!--Primer post-->
+          <div class="secondary callout text-left post">
+            <h4>Tortas Fritas</h4>
+            <span><a href="#" class="fecha-publicacion">11 de Abril de 2019</a></span>
+            <img id="foto-post" src="img/tortas-fritas.jpg" alt="Tortas Fritas" class="thumbnail">
+            <p>
+              Las torta fritas son un plato vespertino, ideal para los días de lluvia, un clásico en el país argentino. Para preparar tortas fritas, necesitaremos los siguientes ingredientes: harina de trigo, sal, grasa de vaca y agua tibia. Para su elaboración debemos mezclar los ingredientes, hasta formar una masa que debe dejarse reposar aproximadamente una hora. Luego, estiramos la masa, hasta obtener un grosor de unos 4 o 5 milimetros. Cortamos la masa de la forma que más nos guste y la freímos en la grasa de vaca. Y así estaremos listos para comer las deliciosas tortas fritas argentinas!
+            </p>
+            <hr>
+            <form>
+              <div class="elementos-comentario">
+                <textarea placeholder="Ingrese su comentario"></textarea>
+                <input type="submit" class="button"/>
+              </div>
+            </form>
+            <!--Comentarios Realizados-->
+            <div class="row large-uncollapse comentario">
+              <div class="logo-comentario column medium-2 small-3">
+                <img id="logo" src="img/usuario-mujer.png" alt="" class="thumbnail">
+              </div>
+              <div class="texto-comentario column medium-10 small-9">
+                <p>
+                  Muy buena receta, me encantó!
+                </p>
+              </div>
+            </div>
+            <div class="row large-uncollapse comentario">
+              <div class="logo-comentario column medium-2 small-3">
+                <img id="logo" src="img/usuario-hombre.png" alt="" class="thumbnail">
+              </div>
+              <div class="texto-comentario column medium-10 small-9">
+                <p>
+                  Muchas gracias por compartir tan fabulosa receta con nosotros!
+                </p>
+              </div>
+            </div>
+            <div class="row large-uncollapse comentario">
+              <div class="logo-comentario column medium-2 small-3">
+                <img id="logo" src="img/usuario-hombre.png" alt="" class="thumbnail">
+              </div>
+              <div class="texto-comentario column medium-10 small-9">
+                <p>
+                  Excelente!
+                </p>
+              </div>
+            </div> <!--FIN Comentarios Realizados-->
+          </div> <!--FIN Primer post-->
+          <!--Segundo post-->
+          <div class="secondary callout text-left post">
+            <h4>Fideos Rellenos</h4>
+            <span><a href="#" class="fecha-publicacion">11 de Abril de 2019</a></span>
+            <img id="foto-post" src="img/fideos-rellenos.jpg" alt="Fideos Rellenos" class="thumbnail" >
+            <p>
+              Hoy vamos a presentar uno de los platos más solicitados por la familia: los famosos fideos rellenos. Para su elaboración deberemos hervir acelga, una pechuga de pollo, sin olvidarnos salarlo. Reogamos una cebolla grande y 2 dientes de ajo. Luego, procesamos todo junto y condimentamos con sal, nuez moscada y pimienta. Así tenemos listo el relleno de nuestro fideos. Para la masa, mezclamos harina de trigo, 2 huevos, sal y agua, hasta obtener una masa consistente. Dejamos reposar la masa. Luego la estiramos y la cubrimos con el relleno que preparamos anteriormente. Enrrollamos la masa y envolvemos los rollitos en film. Ponemos a hervirlos durante 45 minutos y luego los cortamos. Agregamos la salsa que se prefiera y se pone queso rallado a gusto. Y así tenemos unos deliciosos fideos rellenos para degustar el domingo en familia!
+            </p>
+            <hr>
+            <form>
+              <div class="elementos-comentario">
+                <textarea placeholder="Ingrese su comentario"></textarea>
+                <input type="submit" class="button"/>
+              </div>
+            </form>
+            <!--Comentarios Realizados-->
+            <div class="row large-uncollapse comentario">
+              <div class="logo-comentario column medium-2 small-3">
+                <img id="logo" src="img/usuario-mujer.png" alt="" class="thumbnail">
+              </div>
+              <div class="texto-comentario column medium-10 small-9">
+                <p>
+                  Riquísimos!
+                </p>
+              </div>
+            </div>
+            <div class="row large-uncollapse comentario">
+              <div class="logo-comentario column medium-2 small-3">
+                <img id="logo" src="img/usuario-mujer.png" alt="" class="thumbnail">
+              </div>
+              <div class="texto-comentario column medium-10 small-9">
+                <p>
+                  Parecen ser deliciosos. Gran aporte!
+                </p>
+              </div>
+            </div>
+            <div class="row large-uncollapse comentario">
+              <div class="logo-comentario column medium-2 small-3">
+                <img id="logo" src="img/usuario-hombre.png" alt="" class="thumbnail">
+              </div>
+              <div class="texto-comentario column medium-10 small-9">
+                <p>
+                  Vamos a ir mandando las invitaciones para el domingo...
+                </p>
+              </div>
+            </div> <!--FIN Comentarios Realizados-->
+          </div> <!--FIN Segundo post-->
+        </div>
+      </div>
+    </div>
+
+
+    <script src="js/jquery.js"></script>
+    <script src="js/what-input.js"></script>
+    <script src="js/foundation.min.js" charset="utf-8"></script>
+    <script src="js/home.js" charset="utf-8"></script>
+  </body>
+</html>
