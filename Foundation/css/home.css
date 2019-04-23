@@ -84,3 +84,9 @@ los post principales */
 .post {
   opacity: 1 !important;
 }
+
+@media (max-width: 980px) {
+  .post #foto-post {
+    min-height: 250px;
+  }
+}
