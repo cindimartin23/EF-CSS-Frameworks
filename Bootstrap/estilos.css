@@ -1,0 +1,140 @@
+/* Clase para darle estilos al body */
+body {
+  background-color: black;
+}
+
+/* Clase para darle estilos al header */
+header {
+  width: 96%;
+}
+/* Clase para darle estilos a la fila del encabezado */
+.encabezado {
+  margin-left: 2%;
+}
+/* Clase para darle estilos a la barra de navegacion */
+.navbar-inverse {
+  /*min-height: 10%;*/
+  background-color: #082D5E;
+  border: none;
+
+}
+/* Clase para darle estilos al logo del sitio web ubicado en la etiqueta nav */
+.logo-img {
+  width: 150px;
+  padding-top: 10px;
+  min-height: 60px;
+}
+/* Clase para darle estilos al bloque de redes sociales */
+.redes-sociales {
+  margin-top: 100px;
+  text-align: right;
+  padding-bottom: 10px;
+}
+/* Clase para darle estilos a las imágenes de redes sociales */
+.img-social {
+  width: 40px;
+  height: 40px;
+  padding-right: 2px;
+}
+/* Clase para darle estilos a el contenedor principal */
+.container-fluid {
+  width: 94%;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+}
+/* Clase para darle estilo al menu-principal */
+.menu-principal {
+  background-color: #3C69C2;
+  margin-left: 0px;
+  width: 100%;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+}
+/*Clases para darle estilos a el menu principal*/
+.menu {
+  text-align: center;
+  background-color: #3C69C2;
+  min-height: 40px;
+  padding-top: 7px;
+  border-radius: 5px;
+}
+.menu a:link, .menu a:visited {
+	color: #FFFFFF;
+	padding-right: 2px;
+	text-decoration: none;
+}
+.menu a:hover, .menu a:active{
+	color: #071963;
+	text-decoration: underline;
+	text-shadow: none !important;
+}
+.foto {
+  text-align: center;
+  padding-top: 30px;
+  padding-bottom: 20px;
+}
+.img-foto {
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  color: #071963;
+}
+
+/*Clases para barra de busqueda*/
+.busqueda {
+  background-color: #BABECD;
+  border-top-right-radius: 5px;
+}
+.buscar {
+  padding-top: 20px;
+  padding-left: 20px;
+}
+
+.opciones {
+  text-align: left;
+  min-width: 500px;
+  padding-bottom: 10px;
+  padding-top: 20px;
+}
+.opc {
+  padding: 20px;
+  min-height: 20px;
+}
+.opc span a {
+  color: #071963;
+  padding-left: 20px;
+}
+.opc span a:hover {
+  color: #FFFFFF;
+}
+
+/* Clase para darle esstilos a la sección para
+agregar Comentarios */
+.comentario {
+  padding-left: 10px;
+}
+
+/* Clase para darle estilos al botón Enviar */
+.btn-send {
+  min-width: 40px;
+  height: 50px;
+  background-color: #071963;
+  opacity: 0.95;
+  color: #FFFFFF;
+}
+
+@media (max-width: 980px) {
+  /* Clase para ocultar componentes HTML */
+  .logo {
+    text-align: center !important;
+  }
+  .redes-sociales {
+    margin-top: 10px !important;
+    text-align: center !important;
+  }
+  .container-fluid {
+    /*margin-top: 180px;*/
+  }
+}
