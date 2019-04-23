@@ -1,0 +1,92 @@
+.cocina-body {
+  background: url(../img/fondo-6.jpg);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  height: 100%;
+  width: 100%;
+}
+
+.encabezado, .col-izquierda {
+  opacity: 0.8;
+}
+
+
+.logo-img{
+  width: 30%;
+}
+
+img{
+  max-height: 129px;
+}
+
+div.secondary.callout.text-center{
+  min-height: 242px;
+}
+
+/* Clase para darle estilo al slogan */
+h6 {
+  font-style: oblique;
+}
+
+.col-izquierda {
+  min-width: 310px;
+}
+
+/* Clase para darle estilos a las columnas
+de favoritos */
+.favoritos {
+  text-align: center !important;
+}
+
+.col-favoritos {
+  text-align: center;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* Clase para dar estilo a elementos de
+historial reciente */
+.col-historial {
+  padding-top: 10px;
+}
+.opc {
+  padding-bottom: 10px;
+}
+
+/* Clase para dar estilo a elementos de
+los post principales */
+.post #foto-post {
+  width: 90%;
+  min-height: 350px;
+  margin-left: 5%;
+  margin-top: 10px;
+}
+
+.comentario {
+  border: 1px solid grey;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.logo-comentario, .texto-comentario {
+  padding-top: 10px;
+}
+
+.logo-comentario #logo {
+  height: 80%;
+  width: 80%;
+  background-color: #FFFFFF;
+
+}
+
+.post {
+  opacity: 1 !important;
+}
+
+@media (max-width: 980px) {
+  .post #foto-post {
+    min-height: 250px;
+  }
+}
